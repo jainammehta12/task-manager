@@ -101,6 +101,7 @@
             li.textContent = t;
             p.appendChild(li);
         });
+        
 
         [...stack].reverse().forEach(t => {
             let li = document.createElement("li");
